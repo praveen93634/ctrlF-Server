@@ -1,0 +1,31 @@
+{
+  "name": "ctrlf-server",
+  "version": "1.0.0",
+  "description": "this is customer followup/cordination  manegement os backend monolith  ",
+  "license": "ISC",
+  "author": "ctrla-team",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec tsx src/app.ts",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "mongoose": "^9.11.2",
+    "postgres": "^3.4.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
